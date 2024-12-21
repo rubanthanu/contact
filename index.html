@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div id="f" class="container">
+    <form class="form" action="get" >
+        <h1>Contact US</h1>
+        <fieldset id="f1">
+
+            <legend id="l1">Personal Details</legend>
+
+        <label for="_name">Name</label><br>
+        <input type="text" id="_name" name="name" placeholder="Your Name" ><br>
+
+        <label for="_email">Email</label><br>
+        <input type="email" name="email" placeholder="abcd@gmail.com"><br>
+
+        <label for="phone_number">Phone Number</label><br>
+        <input type="number" id="phone_number" name="phone_number" maxlength="10" placeholder="Your NIC Number"><br>
+        
+        <label for="NIC_number">NIC Number</label><br>
+        <input type="NIC" id="NIC_number" name="phone_number" placeholder="Your NIC Number"><br>
+
+    </fieldset>
+    
+    <fieldset>
+
+        <legend>Event Details</legend>
+
+        <label for="f1">Event Type</label><br>
+        <select id="f1" >
+            <option value="">Wedding</option>
+            <option value="">Puberty Ceremony</option>
+            <option value="">Birthday</option> 
+        </select><br>
+
+         <label for="date">Event Date</label><br>
+         <input type="date"><br>
+
+         <label for="location">Venue</label><br>
+         <input type="location"><br>
+
+       
+
+         <label for="msg">Message</label><br>
+        <textarea name="message" id="msg">Provide Additional Details</textarea><br>
+
+        <label for="Budget">Budjet</label><br>
+        <input type="number" id="Budget"><br>
+        
+    </fieldset>    
+
+        <button type="submit" id="button">Submit</button>
+
+
+        
+    </form>
+
+    </div>
+   
+    
+</body>
+</html>
